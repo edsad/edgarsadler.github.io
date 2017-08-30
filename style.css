@@ -18,6 +18,7 @@ h1, h2{
 
  div#navbar {
     width: 100%;
+    margin-bottom: 10em;
  }
 
  div#navbar ul {
@@ -31,6 +32,17 @@ h1, h2{
     float: left;
     margin-right: .5em;
  }
+
+ .wrapper {
+  background-color: tan;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*.pic {
+    background-color: blue;
+    margin-bottom: : 2em;
+}*/
 
 
 div.resume {
@@ -55,6 +67,12 @@ p.strong {
     font-weight: bold;
 }
 
+p.strongLeft{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+}
+
 p {
     text-align: center;
 }
@@ -64,3 +82,4 @@ img.itsOwnLine{
     margin-left: auto;
     margin-right: auto;
 }
+
